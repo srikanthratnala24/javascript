@@ -1,3 +1,5 @@
+let greeting = "Welcome to the site!";
+alert(greeting);
 console.log("Hello world")
 
 let firstName = 'srikanth';
@@ -53,3 +55,49 @@ function square(number){
 
 let square_num = square(2);
 document.getElementById('square').innerHTML = square_num;
+
+let message = "hey this a message";
+
+document.write(message);
+
+
+//operators
+//Arthemetic operator
+
+let x =10;
+let y=3;
+
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+console.log(x ** y);
+
+//increment(++)
+console.log(x++);
+console.log(x);
+
+//decrement(--)
+// console.log(x--)
+console.log(--x);
+console.log(x);
+
+//Assignment operators
+
+x = x+5
+console.log(x);
+
+
+//Comparison operators
+console.log(x>0);
+console.log(x>=1);
+console.log(x<=1);
+console.log(x<1);
+
+//Equality operators
+
+console.log(x==1);
+console.log(x===1); 
+console.log(x!=1);
+console.log(x!==1);
