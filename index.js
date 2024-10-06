@@ -1,4 +1,4 @@
-let greeting = "Welcome to the site!";
+let greeting = "Are you sure you want to redirect homepage";
 alert(greeting);
 console.log("Hello world")
 
@@ -52,14 +52,17 @@ function greet(){
 function square(number){
     return number*number;
 }
-
-let square_num = square(2);
-document.getElementById('square').innerHTML = square_num;
-
 let message = "hey this a message";
 
 document.write(message);
+let square_num = square(2);
+document.getElementById('square').innerHTML = square_num;
 
+let points = 110;
+let type = points > 100 ? 'gold' : 'silver';
+customerMessage = `you are a ${type} customer`;
+document.getElementById('customer_type').innerHTML = customerMessage;
+console.log(type);
 
 //operators
 //Arthemetic operator
@@ -101,3 +104,5 @@ console.log(x==1);
 console.log(x===1); 
 console.log(x!=1);
 console.log(x!==1);
+
+//strict equaity operator
